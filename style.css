@@ -1,19 +1,17 @@
 *{
     background-color: rgb(187, 106, 228);
 }
-#Principal{
+.Principal{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.Coluna{
     display: flex;
     flex-direction: column;
 }
 
-#Caixa-flex{
-    display: flex;
-    flex-direction: column;
-}
-#Box-flex{
-    display: flex;
-    flex-direction: column;
-}
+
 img{
     width: 50%;
     height: 50%;
