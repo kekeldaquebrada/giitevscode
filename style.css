@@ -1,7 +1,16 @@
 *{
     background-color: rgb(187, 106, 228);
 }
+#Principal{
+    display: flex;
+    flex-direction: column;
+}
+
 #Caixa-flex{
+    display: flex;
+    flex-direction: column;
+}
+#Box-flex{
     display: flex;
     flex-direction: column;
 }
